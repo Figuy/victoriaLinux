@@ -152,12 +152,6 @@ Contenue :
 ```powershell
 [root@localhost /]# sudo firewall-cmd --permanent --add-service http
 ```
-```powershell
-[root@localhost /]# sudo firewall-cmd --permanent --add-service https
-```
-```powershell
-[root@localhost /]# sudo firewall-cmd --permanent --add-service ssh
-```
 
 ```powershell
 [root@localhost /]# firewall-cmd --reload
