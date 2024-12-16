@@ -1,6 +1,8 @@
 ```powershell
 root@debian:~# apt update -y 
 ```
+Création d'un user :
+
 ### USER : vicky
 ### MDP : Vicky17!
 
@@ -111,6 +113,17 @@ root@debian:~# nano crontab -e
 * 3 * * * /backup.
 ```
 
+## Install Auditl 
+
+```powershell
+root@debian:~# apt install auditd
+```
+
+### surveille les logs 
+
+```powershell
+root@debian:~# auditctl -w /etc -p wa -k modification
+```
 
 
 
